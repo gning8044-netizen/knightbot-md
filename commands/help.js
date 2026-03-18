@@ -5,16 +5,16 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'DEV SHADOW-TECH'}*  
    Version: *${settings.version || '3.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Mr Dev Shadow Tech'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*Available Commands:*
+*Dev Shadow Tech:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
+🌐 *General Shadow*:
 ║ ➤ .help or .menu
 ║ ➤ .ping
 ║ ➤ .alive
@@ -38,7 +38,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝ 
 
 ╔═══════════════════╗
-👮‍♂️ *Admin Commands*:
+👮‍♂️ *Admin Shadow*:
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -66,7 +66,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔒 *Owner Commands*:
+🔒 *Owner Shadow*:
 ║ ➤ .mode <public/private>
 ║ ➤ .clearsession
 ║ ➤ .antidelete
@@ -87,7 +87,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎨 *Image/Sticker Commands*:
+🎨 *Image/Sticker Shadow*:
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -103,7 +103,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝  
 
 ╔═══════════════════╗
-🖼️ *Pies Commands*:
+🖼️ *Pies Shadow*:
 ║ ➤ .pies <country>
 ║ ➤ .china 
 ║ ➤ .indonesia 
@@ -113,7 +113,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎮 *Game Commands*:
+🎮 *Game Shadow*:
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
@@ -124,7 +124,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🤖 *AI Commands*:
+🤖 *AI Shadow*:
 ║ ➤ .gpt <question>
 ║ ➤ .gemini <question>
 ║ ➤ .imagine <prompt>
@@ -133,7 +133,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎯 *Fun Commands*:
+🎯 *Fun Shadow*:
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
 ║ ➤ .flirt 
@@ -148,7 +148,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔤 *Textmaker*:
+🔤 *Textmaker Shadow*:
 ║ ➤ .metallic <text>
 ║ ➤ .ice <text>
 ║ ➤ .snow <text>
@@ -170,7 +170,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-📥 *Downloader*:
+📥 *Downl Shadow*:
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ║ ➤ .spotify <query>
@@ -182,7 +182,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🧩 *MISC*:
+🧩 *MISC Shadow*:
 ║ ➤ .heart
 ║ ➤ .horny
 ║ ➤ .circle
@@ -202,7 +202,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🖼️ *ANIME*:
+🖼️ *ANIME Shadow*:
 ║ ➤ .nom 
 ║ ➤ .poke 
 ║ ➤ .cry 
@@ -214,7 +214,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-💻 *Github Commands:*
+💻 *Github Shadow:*
 ║ ➤ .git
 ║ ➤ .github
 ║ ➤ .sc
@@ -222,7 +222,7 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .repo
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+Vient rejoindre mon canal mec!:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
